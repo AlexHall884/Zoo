@@ -1,0 +1,44 @@
+1.
+cat > pets
+dogs
+cats
+hamsters
+
+(Ctr + D)
+
+сat > pack_animals
+
+horses
+camels
+donkeys
+
+(Ctr + D)
+
+cat pets pack_animals > human_friends
+cat human_friends
+
+2.
+mkdir animals
+mv human_friends animals
+
+3.
+sudo apt-get install mysql-server
+sudo apt install mysql-client
+
+4. 
+cd ~
+cd Загрузки
+wget https://download.virtualbox.org/virtualbox/7.0.6/virtualbox-7.0_7.0.6-155176~Ubuntu~jammy_amd64.deb
+ls
+sudo dpkg -i virtualbox-7.0_7.0.6-155176~Ubuntu~jammy_amd64.deb
+cd ~
+sudo apt list grep | virtualbox
+sudo dpkg -r virtualbox-7.0
+sudo dpkg -P virtualbox-7.0
+
+5.(смотреть -> terminal.jpg)
+
+6.(смотреть -> diagrams.drawio  или Diagramm.jpg)
+
+7 - 12. (смтотреть ->  sql скрипт Animals.sql)
+
